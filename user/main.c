@@ -67,7 +67,7 @@ int main(void)
 	velocity_limit=20;         //rad/s angleOpenloop() and PID_angle() use it
 	voltage_sensor_align=3;    //V     alignSensor() and driverAlign() use it，大功率电机0.5-1，小功率电机2-3
 	torque_controller=Type_voltage;  //当前只有电压模式
-	controller=Type_angle;  //Type_angle; //Type_torque;    //
+	controller=Type_velocity;  //Type_angle; //Type_torque;    //
 	target=0;
 	
 	Motor_init();

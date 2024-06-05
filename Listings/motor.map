@@ -1701,7 +1701,7 @@ Image Symbol Table
     NMI_Handler                              0x080015d9   Thumb Code     2  stm32f10x_it.o(i.NMI_Handler)
     NVIC_Init                                0x080015dd   Thumb Code   100  misc.o(i.NVIC_Init)
     PID_angle                                0x0800164d   Thumb Code   234  pid.o(i.PID_angle)
-    PID_init                                 0x0800175d   Thumb Code    72  pid.o(i.PID_init)
+    PID_init                                 0x0800175d   Thumb Code    74  pid.o(i.PID_init)
     PID_velocity                             0x080017e5   Thumb Code   458  pid.o(i.PID_velocity)
     PendSV_Handler                           0x080019e1   Thumb Code     2  stm32f10x_it.o(i.PendSV_Handler)
     RCC_APB1PeriphClockCmd                   0x080019e5   Thumb Code    26  stm32f10x_rcc.o(i.RCC_APB1PeriphClockCmd)
@@ -2060,7 +2060,7 @@ Image component sizes
        768         86          0         20          0       3747   magneticsensor.o
        548        146          0          4          0       1766   main.o
        112         12          0          0          0     204288   misc.o
-       916        152          0         44          0       2640   pid.o
+       916        150          0         44          0       2640   pid.o
         36          8        236          0       1024        784   startup_stm32f10x_md.o
        430          6          0          0          0       3686   stm32f10x_gpio.o
        340         20          0          0          0       3885   stm32f10x_i2c.o
@@ -2073,7 +2073,7 @@ Image component sizes
        336         24          0          6        256       3632   usart.o
 
     ----------------------------------------------------------------------
-     10612       1438       1072        188       1280     322758   Object Totals
+     10612       1436       1072        188       1280     322758   Object Totals
          0          0         32          0          0          0   (incl. Generated)
         26          0          4          2          0          0   (incl. Padding)
 
@@ -2162,9 +2162,9 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-     17992       1704       1296        192       1280     320946   Grand Totals
-     17992       1704       1296        192       1280     320946   ELF Image Totals
-     17992       1704       1296        192          0          0   ROM Totals
+     17992       1702       1296        192       1280     320946   Grand Totals
+     17992       1702       1296        192       1280     320946   ELF Image Totals
+     17992       1702       1296        192          0          0   ROM Totals
 
 ==============================================================================
 
